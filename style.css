@@ -1,0 +1,18 @@
+div{
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+}
+
+/* press-start-2p-400normal - all */
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Press Start 2P Regular'),
+    local('PressStart2P-Regular'), 
+    url('https://cdn.jsdelivr.net/npm/@openfonts/press-start-2p_all@1.44.2/files/press-start-2p-all-400.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('https://cdn.jsdelivr.net/npm/@openfonts/press-start-2p_all@1.44.2/files/press-start-2p-all-400.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
